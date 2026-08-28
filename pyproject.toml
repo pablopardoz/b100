@@ -6,6 +6,12 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "streamlit>=1.61.1",
+    "pandas",
+    "supabase",
+    "google-genai",
+    "requests",
+    "gdown>=6.1.0",
+    "plotly>=7.0.0",
 ]
 
 [tool.uv]

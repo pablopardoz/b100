@@ -12,6 +12,7 @@ dependencies = [
     "requests",
     "gdown>=6.1.0",
     "plotly>=7.0.0",
+    "dotenv>=0.9.9",
 ]
 
 [tool.uv]

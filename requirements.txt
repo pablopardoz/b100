@@ -124,7 +124,7 @@ pydantic==2.13.4
     #   realtime
     #   storage3
     #   supabase-auth
-pydantic-core==2.46.4
+pydantic-core==2.48.0
     # via pydantic
 pydeck==0.9.3
     # via streamlit
@@ -189,7 +189,7 @@ uvicorn==0.52.4
     # via streamlit
 watchdog==6.0.0
     # via streamlit
-websockets==15.0.1
+websockets==17.1
     # via
     #   google-genai
     #   realtime

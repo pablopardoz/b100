@@ -41,7 +41,7 @@ distro==1.9.0
     # via google-genai
 google-auth==2.57.0
     # via google-genai
-google-genai==2.20.0
+google-genai==2.21.0
     # via blank-app-template (pyproject.toml)
 h11==0.16.0
     # via
@@ -107,7 +107,7 @@ postgrest==2.31.0
     # via supabase
 propcache==0.5.2
     # via yarl
-protobuf==7.36.0
+protobuf==7.36.1
     # via streamlit
 pyarrow==25.0.1
     # via streamlit
@@ -117,14 +117,14 @@ pyasn1-modules==0.4.2
     # via google-auth
 pycparser==3.0
     # via cffi
-pydantic==2.13.4
+pydantic==2.13.5
     # via
     #   google-genai
     #   postgrest
     #   realtime
     #   storage3
     #   supabase-auth
-pydantic-core==2.46.4
+pydantic-core==2.48.0
     # via pydantic
 pydeck==0.9.3
     # via streamlit
@@ -189,7 +189,7 @@ uvicorn==0.52.4
     # via streamlit
 watchdog==6.0.0
     # via streamlit
-websockets==15.0.1
+websockets==17.1
     # via
     #   google-genai
     #   realtime

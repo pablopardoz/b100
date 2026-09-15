@@ -4,7 +4,7 @@ altair==6.2.2
     # via streamlit
 annotated-types==0.8.0
     # via pydantic
-anyio==4.14.2
+anyio==4.15.1
     # via
     #   google-genai
     #   httpx
@@ -39,9 +39,9 @@ deprecation==2.1.0
     #   storage3
 distro==1.9.0
     # via google-genai
-google-auth==2.57.0
+google-auth==2.58.0
     # via google-genai
-google-genai==2.20.0
+google-genai==2.23.0
     # via blank-app-template (pyproject.toml)
 h11==0.16.0
     # via
@@ -83,11 +83,11 @@ jsonschema-specifications==2025.9.1
     # via jsonschema
 markupsafe==3.0.3
     # via jinja2
-multidict==6.7.1
+multidict==6.8.0
     # via yarl
-narwhals==2.25.0
+narwhals==2.26.0
     # via altair
-numpy==2.5.2
+numpy==2.5.3
     # via
     #   pandas
     #   pydeck
@@ -107,7 +107,7 @@ postgrest==2.31.0
     # via supabase
 propcache==0.5.2
     # via yarl
-protobuf==7.36.0
+protobuf==7.36.1
     # via streamlit
 pyarrow==25.0.1
     # via streamlit
@@ -117,18 +117,18 @@ pyasn1-modules==0.4.2
     # via google-auth
 pycparser==3.0
     # via cffi
-pydantic==2.13.4
+pydantic==2.13.5
     # via
     #   google-genai
     #   postgrest
     #   realtime
     #   storage3
     #   supabase-auth
-pydantic-core==2.46.4
+pydantic-core==2.49.0
     # via pydantic
 pydeck==0.9.3
     # via streamlit
-pyjwt==2.13.0
+pyjwt==2.14.0
     # via supabase-auth
 python-dateutil==2.9.0.post0
     # via pandas
@@ -158,7 +158,7 @@ starlette==1.6.0
     # via streamlit
 storage3==2.31.0
     # via supabase
-streamlit==1.62.0
+streamlit==1.63.0
     # via blank-app-template (pyproject.toml)
 strenum==0.4.15
     # via supabase-functions
@@ -189,7 +189,7 @@ uvicorn==0.52.4
     # via streamlit
 watchdog==6.0.0
     # via streamlit
-websockets==15.0.1
+websockets==17.1
     # via
     #   google-genai
     #   realtime
